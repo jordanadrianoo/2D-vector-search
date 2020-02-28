@@ -1,3 +1,7 @@
+
+// This program will search 2D vectors of floats and return the x and y coordinates
+//
+
 # include<iostream>
 # include<vector>
 
