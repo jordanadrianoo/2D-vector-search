@@ -77,10 +77,13 @@ int main()
 	vector<vector<float>> nums{ {10,20,30,10,101},
 								{10,10,10,10,60},
 								{70,10,10,80,10,} };
-
+	cout << " The orginal vector is: \n";
 	display(nums);
 
-	positions=search(nums, 10);
+	cout << " Searching for all \"10\"s in the 2D vecor\n";
+	positions=search(nums, 10); // will set the vector "positions" to all locations found
+
+	cout << " The X and Y coordinates found using 10.";
 	display_x_and_y_locations(positions);
 
 	system("pause");
