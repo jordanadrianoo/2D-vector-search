@@ -40,26 +40,6 @@ vector<vector<T>> search(vector<vector<T>> vect, T value)
 
 
 template <class T>
-void display_locations(vector<vector<T>> vect, T value)
-{
-	if (vect.size() != 0)
-	{
-		cout <<"size is"<< vect.size() << endl;
-		cout << "The locations of " << value << " were found at..." << endl;
-		cout << "[Y] [X]"<<endl;
-		for (int i = 0; i < vect.size(); i++)
-		{
-			for (int j = 0; j < vect[i].size(); j++)
-			{
-				cout << "[" << i << "] [" << vect[i][j] << "]" << endl;
-			}
-		}
-	}
-	else
-	{
-		cout << "Sorry! No Locations were found using " << value << endl;
-	}
-}
 
 int main()
 {
