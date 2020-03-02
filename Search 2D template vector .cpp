@@ -38,26 +38,6 @@ vector<vector<T>> search(vector<vector<T>> vect, T value)
 
 }
 
-template <class T>
-void display(vector<vector<T>> vect)
-{
-	if (vect.size() != 0)
-	{
-		cout << "The vector contents are..." << endl;
-		for (int i = 0; i < vect.size(); i++)
-		{
-			for (int j = 0; j < vect[i].size(); j++)
-			{
-				cout << vect[i][j] << " ";
-			}
-			cout << endl;
-		}
-	}
-	else
-	{
-		cout << "The Vector is empty." << endl;
-	}
-}
 
 template <class T>
 void display_locations(vector<vector<T>> vect, T value)
